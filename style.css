@@ -18,12 +18,11 @@ body {
 }
 
 .navbar {
-  border: 2px solid red;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
-  width: 1270px;
+ width: 100%;
   background: #FFF;
   position: fixed;
   top: 0;
@@ -649,7 +648,7 @@ body {
 
 @media only screen and (max-width: 600px) {
   * {
-    border: 2px solid red;
+    /* border: 2px solid red; */
   }
 
   body {
@@ -657,7 +656,6 @@ body {
     width: 100%;
   }
   .navbar {
-    /* padding: 0; */
     position: fixed;
     top: 0;
     right: 2px;
