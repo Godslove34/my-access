@@ -652,7 +652,7 @@ body {
 
 @media only screen and (max-width: 600px) {
   * {
-    /* border: 2px solid red; */
+    border: 2px solid red;
   }
 
   body {
@@ -753,9 +753,8 @@ body {
     flex-direction: column;
   }
 
-  #teame-work {
+  .team>div #teame-work {
     width: 100%;
-
   }
 
   .square {
