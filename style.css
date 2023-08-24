@@ -18,20 +18,18 @@ body {
 }
 
 .navbar {
+  position: fixed;
+  top: 0;
+  z-index: 99;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
   width: 1270px;
   background: #FFF;
-  position: fixed;
-  top: 0;
-  z-index: 99;
-  
+
 }
-header{
-  width: 1150px;
-}
+
 .nav-item {
   margin: 0px 70px;
   display: flex;
@@ -83,10 +81,12 @@ header{
   padding: 0.5rem 1.5rem;
   background: #F58A07;
 }
-.section1 .content{
+
+.section1 .content {
   padding-top: 60px;
   width: 500px;
 }
+
 .section1 .content .my-text {
   display: flex;
   justify-content: center;
@@ -108,12 +108,15 @@ header{
   display: flex;
   gap: 15em;
 }
-.value>h1{
+
+.value>h1 {
   width: 500px;
 }
-.value .value-text{
+
+.value .value-text {
   width: 650px;
 }
+
 .my-advice {
   font-size: 20px;
 }
@@ -652,13 +655,12 @@ header{
   * {
     /* border: 2px solid red; */
   }
-  header{
-    width: 100%;
-  }
+
   body {
     background-position: center;
     max-width: 100%;
   }
+
   .navbar {
     position: fixed;
     top: 0;
@@ -667,7 +669,7 @@ header{
     color: #255679;
     height: 40px;
   }
- 
+
   .logo {
     padding: 0;
     margin-top: 20px;
@@ -702,26 +704,32 @@ header{
   .section1 {
     margin-top: 10em;
   }
-  .section1 .content{
+
+  .section1 .content {
     width: 100%;
   }
+
   .content {
     margin: 0;
 
   }
-  .value>h1{
+
+  .value>h1 {
     width: 100%;
   }
-  .value .value-text{
+
+  .value .value-text {
     width: 100%;
   }
+
   .section4>div>h1 {
-    width: 100%; 
+    width: 100%;
   }
-  
+
   .section4>div>p {
     width: 100%;
   }
+
   .text,
   .text1 {
     width: 100%;
@@ -793,10 +801,11 @@ header{
     margin-top: 2em;
     padding: 0 5%;
   }
-  .section4 .measures{
+
+  .section4 .measures {
     flex-direction: column;
   }
-  
+
   #my-pics {
     width: 100%;
   }
@@ -869,6 +878,7 @@ header{
   .color>button {
     padding: 7px 10px;
   }
+
   .color>h3 {
     font-size: 2rem;
     line-height: 40px;
@@ -877,6 +887,7 @@ header{
     padding: 0 10%;
     width: 100%;
   }
+
   #my-picture {
     margin: 0;
     width: 100%;
@@ -898,7 +909,7 @@ header{
     margin-top: 10px;
     width: 100%;
   }
-  
+
   #my-post {
     width: 100%;
   }
@@ -920,10 +931,12 @@ header{
   .section7>div .advices>p {
     width: 100%;
   }
-  .section7>div .advices>h1{
+
+  .section7>div .advices>h1 {
     font-size: 2rem;
     line-height: 40px;
   }
+
   .section7 .points {
     padding-top: 10px;
   }
@@ -943,17 +956,19 @@ header{
     right: 7em;
     bottom: 40px;
   }
-  .section7{
+
+  .section7 {
     width: 100%;
   }
+
   .section7>div .advices>h1 {
     width: 100%;
   }
-  
+
   .section7>div .advices>p {
     width: 100%;
   }
-  
+
   .section7>div .my-texts {
     font-size: 24px;
   }
