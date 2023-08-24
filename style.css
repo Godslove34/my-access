@@ -29,7 +29,9 @@ body {
   z-index: 99;
   
 }
-
+header{
+  width: 1150px;
+}
 .nav-item {
   margin: 0px 70px;
   display: flex;
@@ -650,7 +652,9 @@ body {
   * {
     /* border: 2px solid red; */
   }
-
+  header{
+    width: 100%;
+  }
   body {
     background-position: center;
     max-width: 100%;
