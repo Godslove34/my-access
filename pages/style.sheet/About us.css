@@ -530,7 +530,7 @@ line-height: 28px;
   }
 
   .section1 .content {
-    padding: 30% 10%;
+    padding: 10% 10%;
     flex-direction: column;
     gap: 30px;
   }

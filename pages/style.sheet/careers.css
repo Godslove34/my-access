@@ -18,6 +18,9 @@ body {
 }
 
 .navbar {
+  position: fixed;
+  top: 0;
+  z-index: 99;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -53,7 +56,7 @@ body {
 }
 .section1{
   width: 1120px;
-  margin: 50px 0 0 100px;
+  margin: 150px 0 0 100px;
 }
 .section1 .my-text{
   display: flex;

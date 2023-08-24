@@ -18,15 +18,17 @@ body {
 }
 
 .navbar {
-  position: fixed;
-  top: 0;
-  z-index: 99;
+  border: 2px solid red;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2rem;
+  width: 1270px;
   background: #FFF;
-  width: 1264px;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  
 }
 
 .nav-item {
@@ -81,6 +83,7 @@ body {
   background: #F58A07;
 }
 .section1 .content{
+  padding-top: 60px;
   width: 500px;
 }
 .section1 .content .my-text {
@@ -97,7 +100,7 @@ body {
 }
 
 .section2 {
-  padding: 7rem 0 0 6rem;
+  padding: 7rem 0 0 4rem;
 }
 
 .section2 .words {
@@ -153,7 +156,7 @@ body {
 
 }
 
-#teame-work {
+.team>div #teame-work {
   width: 350px;
 }
 
@@ -163,7 +166,7 @@ body {
   font-weight: 500;
 }
 
-.team>p {
+.team>div>p {
   color: #5B5B5B;
 }
 
@@ -646,15 +649,15 @@ body {
 
 @media only screen and (max-width: 600px) {
   * {
-    /* border: 2px solid red; */
+    border: 2px solid red;
   }
 
   body {
     background-position: center;
-    max-width: 100%;
+    width: 100%;
   }
-
   .navbar {
+    /* padding: 0; */
     position: fixed;
     top: 0;
     right: 2px;
@@ -662,7 +665,7 @@ body {
     color: #255679;
     height: 40px;
   }
-
+ 
   .logo {
     padding: 0;
     margin-top: 20px;

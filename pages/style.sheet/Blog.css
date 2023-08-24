@@ -18,6 +18,9 @@ body {
 }
 
 .navbar {
+  position: fixed;
+  top: 0;
+  z-index: 99;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,14 +57,14 @@ body {
 .section1{
   background: #DCEAF5;
   width: 1263px;
-  height: 550px;
+  height: 600px;
 
 }
 .section1 .content{
   display: flex;
   align-items: center;
   gap: 50px;
-  padding: 60px 0 0 100px;
+  padding: 160px 0 0 100px;
 }
 .content>div .text1{
 font-size: 16px;
@@ -280,7 +283,9 @@ color: #5B5B5B;
     background-position: center;
     max-width: 100%;
   }
-
+/* header{
+  width: 100%;
+} */
   .navbar {
     position: fixed;
     top: 0;
