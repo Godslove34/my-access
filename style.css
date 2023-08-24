@@ -56,7 +56,7 @@ body {
 }
 
 .content {
-  margin: 10rem 27rem;
+  margin: 12rem 27rem;
   text-align: center;
   color: #FFFFFF;
 
@@ -83,7 +83,6 @@ body {
 }
 
 .section1 .content {
-  padding-top: 60px;
   width: 500px;
 }
 
