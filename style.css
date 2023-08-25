@@ -181,13 +181,16 @@ body {
   color: #0D1317;
   margin-top: 70px;
 }
-
+.section3 .contents{
+  padding: 40px 0 0 80px;
+}
 .section3>h3 {
   text-align: center;
   font-size: 25px;
 }
 
-.section3>div>h2 {
+.section3 .contents>h2 {
+  width: 1300px;
   font-size: 30px;
 }
 
@@ -201,9 +204,7 @@ body {
 
 .contents {
   display: flex;
-  justify-content: center;
-  gap: 70px;
-  padding-top: 40px;
+  gap: 50px;
 }
 
 .container {
@@ -720,7 +721,8 @@ body {
   .value .value-text {
     width: 100%;
   }
-
+  
+  
   .section4>div>h1 {
     width: 100%;
   }
@@ -784,12 +786,19 @@ body {
   }
 
   .section3 {
-    background: #EDF7FF;
     width: 100%;
     height: 90rem;
     padding: 0 5%;
   }
-
+  .section3 .contents{
+    padding: 0;
+    /* padding: 40px 0 0 80px; */
+  }
+  
+  .section3 .contents>h2 {
+    width: 100%;
+    
+  }
   .section4 {
     flex-direction: column;
     gap: 2em;
