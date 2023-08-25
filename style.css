@@ -232,6 +232,7 @@ body {
 }
 
 .box>div>p {
+  width: 300px;
   font-size: 13px;
   line-height: 25px;
 }
@@ -796,6 +797,10 @@ body {
   }
   
   .section3 .contents>h2 {
+    width: 100%;
+    
+  }
+  .box>div>p {
     width: 100%;
     
   }
