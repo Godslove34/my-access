@@ -536,7 +536,7 @@ body {
 }
 
 .last-statement>div .fixed-point>p {
-  width: 270px;
+ 
   font-size: 14px;
   line-height: 30px;
 }
@@ -999,7 +999,7 @@ body {
   .section8 {
     margin-top: 40px;
     width: 100%;
-    height: 1700px;
+    height: 1650px;
   }
 
   .section8 .my-content>div>h1 {
