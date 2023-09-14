@@ -289,7 +289,7 @@ body {
 }
 
 #my-pics {
-  width: 400px;
+  width: 330px;
   border-radius: 20px;
 }
 
@@ -302,9 +302,9 @@ body {
   background: #F58A07;
   mix-blend-mode: multiply;
   width: 110px;
-  height: 419px;
+  height: 474px;
   position: absolute;
-  bottom: 56px;
+  bottom: 6px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
@@ -469,7 +469,8 @@ body {
 }
 
 #female {
-  width: 450px;
+  width: 430px;
+  border-radius: 40px;
 }
 
 .play {
@@ -496,7 +497,10 @@ body {
   line-height: 31px;
   color: #F58A07;
 }
-
+#godslove3{
+  width: 150px;
+  border-radius: 70px;
+}
 .section8 {
   margin-top: 70px;
   background: #DCEAF5;
@@ -998,7 +1002,10 @@ body {
     line-height: 31px;
     color: #F58A07;
   }
-
+  #godslove3{
+    width: 120px;
+   
+  }
   .section8 {
     margin-top: 40px;
     width: 100%;
