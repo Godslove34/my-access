@@ -286,7 +286,10 @@ line-height: 28px;
   gap: 40px;
   padding-top: 30px;
 }
-
+#godslove3{
+  width: 150px;
+  border-radius: 70px;
+}
 #female {
   width: 430px;
   border-radius: 40px;
