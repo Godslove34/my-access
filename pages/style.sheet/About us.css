@@ -231,22 +231,23 @@ header{
 
 #g-list {
   width: 240px;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 #g-lists{
   width: 270px;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 .bg-text{
   position: relative;
 }
 .bg{
   position: absolute;
-  bottom: 8px;
+  bottom: 18px;
+  right: 0px;
   background: #252525;
-  width: 230px;
+  width: 240px;
   height: 200px;
-  border-radius: 20px;
+  border-radius: 10px;
   mix-blend-mode: multiply;
 }
 #bg-text{
