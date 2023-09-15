@@ -49,14 +49,6 @@ header{
   font-weight: 600;
 }
 
-.nav-item .clone a {
-
-  color: #F58A07;
-  padding: 0.5rem 1.5rem;
-  border-radius: 31px;
-  background: rgba(245, 138, 7, 0.10);
-}
-
 .section1 {
   padding-top: 10rem;
   /* margin-top: 60px; */
