@@ -205,9 +205,6 @@ header{
   width: 1150px;
   margin: 80px 0 0 97px;
 }
-.section_4>div{
-  border: 2px solid red;
-}
 .section_4>div>h2 {
   width: 450px;
   font-size: 38px;
@@ -512,7 +509,7 @@ line-height: 28px;
     display: block;
     position: absolute;
     position: relative;
-    left: 20px;
+    left: 2px;
     top: 10px;
   }
 
